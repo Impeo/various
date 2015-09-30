@@ -3,12 +3,12 @@
 BASE=`pwd`
 repos=(efp24-data efp24-rechenkern efp24-report efp24-util eFrame efp24 efp24-business)
 
-git clone https://github.com/Impeo/cheops.git
-cd cheops
-echo "# cheops" >> README.md
+git clone https://github.com/Impeo/ifyna.git
+cd ifyna
+echo "# ifyna" >> README.md
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/Impeo/cheops.git
+git remote add origin https://github.com/Impeo/ifyna.git
 git push -u origin master
 git branch Branch_2.1.8
 git push origin Branch_2.1.8
@@ -28,7 +28,7 @@ do
   git checkout Branch_2.1.8
   
   echo "-> add new github remote for $repo"
-  git remote add new-origin https://github.com/Impeo/cheops.git
+  git remote add new-origin https://github.com/Impeo/ifyna.git
 
   echo "-> remove old and rename new remote for $repo"
   git remote rm origin  
