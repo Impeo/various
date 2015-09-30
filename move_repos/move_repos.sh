@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BASE=`pwd`
-new_repo=cheops
+new_repo=ifyna
 #repos=( efp24-data efp24-rechenkern efp24-report efp24-util eFrame efp24 efp24-business)
 repos=(efp24-report efp24-util)
 
