@@ -39,10 +39,11 @@ svn co https://github.com/Impeo/various/server/trunk server
 * as user make sure all paths in `conf/Catalin/localhost/ifyna.xml` are according to the installation
 
 ```xml
-  <Context docBase="../warfiles/ifyna-example.war"
-  <Parameter name="demoDataFolder" value="/home/ifyna-example/server/demo_daten" />
-  <Parameter name="public.key" value="/home/ifyna-example/server/keys/public.key"/>
-  <Parameter name="licence.file" value="/home/ifyna-example/server/conf/licence.xml"/>    
+  <Context docBase="../warfiles/ifyna-example.war" ...>
+    <Parameter name="demoDataFolder" value="/home/ifyna-example/server/demo_daten" />
+    <Parameter name="public.key" value="/home/ifyna-example/server/keys/public.key"/>
+    <Parameter name="licence.file" value="/home/ifyna-example/server/conf/licence.xml"/>    
+  </Context>
 ```
 
 * if you want another context as _ifyna_ rename the file `conf/Catalin/localhost/ifyna.xml` accordingly 
