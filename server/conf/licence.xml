@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<etvice-licence>
+<Creation-Date>01.10.2015 14:33:31</Creation-Date>
+<info techMandant="ETV">
+<I_DE>1</I_DE>
+<KAIMAAN>-1</KAIMAAN>
+<CODIE>-1</CODIE>
+<I_GEI>0</I_GEI>
+<ANZAHL_EK>-1</ANZAHL_EK>
+<MYPMA>0</MYPMA>
+<DOC>0</DOC>
+<SBL>-1</SBL>
+<NORDSOFT>-1</NORDSOFT>
+<I_FOND>1</I_FOND>
+<FT>0</FT>
+<I_CM>0</I_CM>
+<FP>0</FP>
+<BE>-1</BE>
+<X_EXP>-1</X_EXP>
+<I_ERE>1</I_ERE>
+<I_EDL>1</I_EDL>
+<DSER>0</DSER>
+<I_SSO>1</I_SSO>
+<FA>0</FA>
+<I_WCE>1</I_WCE>
+<I_MDE>1</I_MDE>
+<I_GE>1</I_GE>
+<I_CE>1</I_CE>
+<I_ME>1</I_ME>
+<SR>-1</SR>
+<GEWA>0</GEWA>
+<I_XL>1</I_XL>
+<AD>-1</AD>
+<CMOBIL>0</CMOBIL>
+<BAV>0</BAV>
+<K_UND_M>-1</K_UND_M>
+<X_IMP>-1</X_IMP>
+<CP>-1</CP>
+<I_XBI>1</I_XBI>
+<I_BE>0</I_BE>
+<EK>0</EK>
+<I_XI>1</I_XI>
+<INNOSYS>0</INNOSYS>
+<CRM>-1</CRM>
+<Expiry-Date>2030-12-31</Expiry-Date>
+<Grace-Period>30</Grace-Period>
+</info>
+<xenc:EncryptedData xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" Type="http://www.w3.org/2001/04/xmlenc#Element">
+<xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc" xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"/>
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<xenc:EncryptedKey xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">
+<xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p" xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"/>
+<xenc:CipherData xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">
+<xenc:CipherValue xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">a0kRTXuNWnGy/IIPmS9rOc+a3Bpy8F/adh9PeW3P5eTg/E+Z4//t8ECOtk9ROHW024+pUui6ul3w
+ldfOVIBxxkUqS9aNa/AavWIDeQKJl0dNW+nuv0eoEQoT5xsgEY+bS/sDtt2iC3sKzoZQdz3VqLRz
+eFDYUh6ueBoBSFZhYpscPA1P7cM1vbX8jRCIEPVPlW1xapIcMAqVZmkJoe9UbFvooQUFZ71oEiXJ
+1jMHbEG+XQ3pbqQVt3PMf3r9Y4Gt</xenc:CipherValue>
+</xenc:CipherData>
+</xenc:EncryptedKey>
+</ds:KeyInfo>
+<xenc:CipherData xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">
+<xenc:CipherValue xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">F4XNVfhFkaxYYgYCIJF8rFYfp9Ixt+fFN7xE8Fwu5XjJcPbQu3HmcyA20ySeP+nsfWvH63nxsbms
+AAI3ezt7PBmwOPevDDnOe2eawVyYZue7vF/ZfCmwnHnGua+7WB2NlfN+Yujj0+r+i2HXu0Rz949t
+MqZcQBw0eAHMpOa4SZcrC+sH76vaHPMzkQWFg43laMULd6mTJiad7MtPD3Q7iy10iNhdUA7tnrcL
+LpaWKpC8PnTd1QyaulLKEmKAFoW0nBkurtord5B9ErE5bBIhEKpUV0iS2FOTgAkG0hgBA8RSSQDz
+XToDWik0d01x4uoLDNZLVLGYeG3i2DU02Vte/zr0kQLGOk+DBxI9x05mcYqk5qUhALb3sgWPocgi
+l2eV8VDSwLnLqgA9jP0sCqpZ0rWgBqEer6gfcQfo6nDA/+ccRiwbNyEpuzq6VscubVlXfzqqlSdx
+GHG4ru4GqdgKTq1VsYdzJ/Ncexabk5ThECvx2atUsdR3/6LHOBwxsooJLyFtF8KczFQNq9K8sZe7
+i3O+ftZ179JEi7f1/1/hTaGZo28HsKIAeq6PDrQGuDCyzfBsp/sJMq4Uie7kd5mvGETU8zjTYgTc
+igzZHhOEiu6zL1zeFrCWtUplpdZ/eaFskXRqMxVhH9SapSNW0drpuNcLOagxImQWeKinJVj4kMKc
+0ZXW9jAy/ZpWXE5jODwLXi1YxZ3bZBa6FqsiCHfme/gBlXS1BBFjdh/xcrUJvMyLtVjLafv3Oqhf
+D72W+DwTuI0/ntSPriEWJBugsKMMdyVQm0jl56jfbzG7wm0wurVrxQ5IRJmyxYcnaZ4vPncDTBOo
+I8VfiouhWUAT0y9LNnXKmESjrBPapiSEOWDYbChYLkz79ijY111C3e3UTcavZcUzYcxGn5A3LZ82
+rEsKAYsVMbv0gr9dyqqSBXUckxaV7vziBl57jK66Dgtfz6HzdILw5MVW3F7XhW8aF6yjIg==</xenc:CipherValue>
+</xenc:CipherData>
+</xenc:EncryptedData>
+<info techMandant="Test">
+<I_DE>1</I_DE>
+<KAIMAAN>-1</KAIMAAN>
+<CODIE>-1</CODIE>
+<I_GEI>0</I_GEI>
+<ANZAHL_EK>-1</ANZAHL_EK>
+<MYPMA>0</MYPMA>
+<DOC>-1</DOC>
+<SBL>-1</SBL>
+<NORDSOFT>-1</NORDSOFT>
+<I_FOND>1</I_FOND>
+<FT>-1</FT>
+<I_CM>1</I_CM>
+<FP>-1</FP>
+<BE>-1</BE>
+<X_EXP>-1</X_EXP>
+<I_ERE>1</I_ERE>
+<I_EDL>1</I_EDL>
+<DSER>0</DSER>
+<I_SSO>1</I_SSO>
+<FA>-1</FA>
+<I_WCE>1</I_WCE>
+<I_MDE>1</I_MDE>
+<I_GE>1</I_GE>
+<I_CE>1</I_CE>
+<I_ME>1</I_ME>
+<SR>-1</SR>
+<GEWA>-1</GEWA>
+<I_XL>1</I_XL>
+<AD>-1</AD>
+<CMOBIL>-1</CMOBIL>
+<BAV>0</BAV>
+<K_UND_M>-1</K_UND_M>
+<X_IMP>-1</X_IMP>
+<CP>-1</CP>
+<I_XBI>1</I_XBI>
+<I_BE>1</I_BE>
+<EK>-1</EK>
+<I_XI>1</I_XI>
+<INNOSYS>-1</INNOSYS>
+<CRM>-1</CRM>
+<Expiry-Date>2015-10-15</Expiry-Date>
+<Grace-Period>30</Grace-Period>
+</info>
+<xenc:EncryptedData xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" Type="http://www.w3.org/2001/04/xmlenc#Element">
+<xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc" xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"/>
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<xenc:EncryptedKey xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">
+<xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p" xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"/>
+<xenc:CipherData xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">
+<xenc:CipherValue xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">a0kRTXuNWnGy/IIPmS9rOc+a3Bpy8F/adh9PeW3P5eTg/E+Z4//t8ECOtk9ROHW024+pUui6ul3w
+ldfOVIBxxkUqS9aNa/AavWIDeQKJl0dNW+nuv0eoEQoT5xsgEY+bS/sDtt2iC3sKzoZQdz3VqLRz
+eFDYUh6ueBoBSFZhYpscPA1P7cM1vbX8jRCIEPVPlW1xapIcMAqVZmkJoe9UbFvooQUFZ71oEiXJ
+1jMHbEG+XQ3pbqQVt3PMf3r9Y4Gt</xenc:CipherValue>
+</xenc:CipherData>
+</xenc:EncryptedKey>
+</ds:KeyInfo>
+<xenc:CipherData xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">
+<xenc:CipherValue xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">aIYaDCdpBOIlvURiaq5ptn3b00D+gL4AgYJJvzVD4hyGvR6FVWJUHdYad71gEIJ+nMcFNCH+Z1P+
+6vlEDK/qjOsk/odi948aYwdTxqucLjQjhNZCR0iI1aDeE3vXWeUJMbyIPb7C6Fk3nEncSxhlR+cK
+B2jJXb70xyXIrB7lPRGbyN32mVvgpD5wgg3J8VScDje9HOIIcIFPDZuYWcHy7LAoc72RlLTQ5+UL
+zHZNOCE16RehpY0trLwcrNla3oieSvQcryeClrnJxICN2JaEM2EysLG5dWryoTy8kMafaswr1Egn
+zcsqLt3eO6oktXO4O7igc2sPOTZfjl9YdBWCwzgjqpU/o/P2IrBVgmqtuGF2vVMqeXPNfNKD2KoX
+3g3x8+nXdMPA0mcmLOxMK6IWB9dIgTCtH11DFNES6GhXPahZwlWAZjCm2ZSftLN3wSJGyuiaAR9N
+eCJfMLy3i7K4gl2H4PwFNS0+N8hzeWHZFb9wTM3WYkn2554DNYD7oDgADCMjQxORSb4U0y93Z/zC
+G2PN/MRUH0FRGr8H/9+rm1UBsVB2+9yAxtq9DOc4OUtW0djh3mdKA0fReskPfvX6o0B4rH4lCYgh
+1Y2Zm01X7EHNtJqrQ5/DKcvxxhqlH+havZGilQXyH91xDNj2dD/73qBzGwWo+iV4RLBlxxEVRPAN
+8tEuAJWO3Ge7QoHDDhNMbBFIouSLBAhjVXgwyWhV61KgLd7DMPjY4DzXVxN0zicTzCiV2CrO2Nfd
+jvYFXgCxPYPY4clQlGhFWlsukK2jbcFtifGxtcC/Cfrwz8Dly2ZN30qxuBWbBwjUoxLvf8uplhBF
+WFYkqZJ9ID98uMtBeHTwn3ekr7kEOF1/Pbc+7DEDD1FixOp5wl8CHZC+MM474Rpsn9uMS1n/8D5V
+1n7ARUFshyqZnQA/GiJA0Gp//hBa0Ct6grLf9vv+LVjst3k+YbwIv95mnrc24hhMx6cKTw==</xenc:CipherValue>
+</xenc:CipherData>
+</xenc:EncryptedData>
+<info techMandant="CROM">
+<I_DE>1</I_DE>
+<KAIMAAN>-1</KAIMAAN>
+<CODIE>-1</CODIE>
+<I_GEI>0</I_GEI>
+<ANZAHL_EK>-1</ANZAHL_EK>
+<MYPMA>0</MYPMA>
+<DOC>-1</DOC>
+<SBL>-1</SBL>
+<NORDSOFT>-1</NORDSOFT>
+<I_FOND>1</I_FOND>
+<FT>-1</FT>
+<I_CM>1</I_CM>
+<FP>-1</FP>
+<BE>-1</BE>
+<X_EXP>-1</X_EXP>
+<I_ERE>1</I_ERE>
+<I_EDL>1</I_EDL>
+<DSER>-1</DSER>
+<I_SSO>1</I_SSO>
+<FA>-1</FA>
+<I_WCE>1</I_WCE>
+<I_MDE>1</I_MDE>
+<I_GE>1</I_GE>
+<I_CE>1</I_CE>
+<I_ME>1</I_ME>
+<SR>-1</SR>
+<GEWA>-1</GEWA>
+<I_XL>1</I_XL>
+<AD>-1</AD>
+<CMOBIL>-1</CMOBIL>
+<BAV>0</BAV>
+<K_UND_M>-1</K_UND_M>
+<X_IMP>-1</X_IMP>
+<CP>-1</CP>
+<I_XBI>1</I_XBI>
+<I_BE>1</I_BE>
+<EK>-1</EK>
+<I_XI>1</I_XI>
+<INNOSYS>-1</INNOSYS>
+<CRM>-1</CRM>
+<Expiry-Date>2015-10-15</Expiry-Date>
+<Grace-Period>30</Grace-Period>
+</info>
+<xenc:EncryptedData xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" Type="http://www.w3.org/2001/04/xmlenc#Element">
+<xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc" xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"/>
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<xenc:EncryptedKey xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">
+<xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p" xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"/>
+<xenc:CipherData xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">
+<xenc:CipherValue xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">a0kRTXuNWnGy/IIPmS9rOc+a3Bpy8F/adh9PeW3P5eTg/E+Z4//t8ECOtk9ROHW024+pUui6ul3w
+ldfOVIBxxkUqS9aNa/AavWIDeQKJl0dNW+nuv0eoEQoT5xsgEY+bS/sDtt2iC3sKzoZQdz3VqLRz
+eFDYUh6ueBoBSFZhYpscPA1P7cM1vbX8jRCIEPVPlW1xapIcMAqVZmkJoe9UbFvooQUFZ71oEiXJ
+1jMHbEG+XQ3pbqQVt3PMf3r9Y4Gt</xenc:CipherValue>
+</xenc:CipherData>
+</xenc:EncryptedKey>
+</ds:KeyInfo>
+<xenc:CipherData xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">
+<xenc:CipherValue xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">2E1mTBZ+Car8e8OzVm2h3tRntaMBlJf9IcBmPMZU+ydmZxVUxRmk+mN/a9zUQX+gZCYPJQevVEjq
+u1df1uvcJRuqab8kKk4FjKU/IXM/LqxQXXYT0dwTmdsXww3W519MDZ9GF4NCd7K1uNs5o0YD+mHz
+2CpUksTLSJvCLBKmQz58R267xkP5QN4m2SnsBSVp1W0crmpVCUJ6gCxk/3Fc1oeDv3qZGEH0JUgY
+1NoqBi+p+cFuIFaIz3h7q2hOfpHFtYnFHnxAKW6SmNZJY3JHZwyc1ooBPHZ39qS2TQiba2SykSly
+NX0nUE2+lPi3XpxbyhT106SZ+2NDj5oD0W4uWNYZFR9whshnEe3BkfUE1Y3VghBv/SxNOD/nGBNJ
+/QKCgfsuU5sKbspq0IOlBtl1AVxrH4Sdtsocwlc5UDddnm2ncKFa9hVjLh+vX6zCkBsrDaLWp4+b
+x1+UX2yXUUBWKKlx+pdd0fOgoiyDmHodp0OP6oJL0/RmGJqvpIXORgB/VwhSJRseu+jvweMCiwDf
++Uv7Dd6cg16Y7JMPFq7LrCKb0gfFmGmb0Q/qfV5Mg7QojvBBFWfu0YT+xohLplkS/md9feE3zXEO
+w2g+ejs3ysCCCRGF8pFVx7jhKczJAOOnlcPOFltRn9Kqd6Fme/pYyZvLkXgCNF+rDHx/KbdW9NXI
+ls+M7qE6/FocyTJcD9A9Srk2jkF1XIWGpNsRjenAg1r1NStdcIlMggh9HOQzl5s5l/BNpoJzWMoG
+ArJEowsCe8XbvTp2L54niS3OxbPDaHo1d6Bd6sM+AZtKBVtVFCWEuDevYWULFrwleRuyBvmhOZ+k
+z4Pq7LS59fINAv6B82XJ6q3T0SrfL5h4YU1PKs9/oCiQW8B+DZcyfe3FZRUI7icOiqLNiZ9UDXHi
+sLhS3uKuno+rwqwHJlPupN31EkQVSs0vbBcZReW577NPlz6SJjjlACBUj9ICElunADRDbA==</xenc:CipherValue>
+</xenc:CipherData>
+</xenc:EncryptedData>
+</etvice-licence>

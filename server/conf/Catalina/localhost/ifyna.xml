@@ -1,0 +1,45 @@
+<Context 
+    docBase="../warfiles/ifyna-example.war"
+    reloadable="true"
+    debug="5"
+    crossContext="true" 
+    privileged="true"
+    antiResourceLocking="false"
+    antiJARLocking="false"
+    useHttpOnly="true">
+					        
+  <Resource name="jdbc/etvice-db" 
+      auth="Container"
+      factory="org.apache.naming.factory.BeanFactory"
+      type="com.mchange.v2.c3p0.ComboPooledDataSource"
+      minPoolSize="3"
+      maxPoolSize="50"
+      numHelperThreads="3"
+      user="sysdba"
+      password="masterkey"
+      driverClass="org.firebirdsql.jdbc.FBDriver"
+      jdbcUrl="jdbc:firebirdsql:s4.impeo.mcs-rz.de:ifyna-example" />
+
+  <Parameter name="modules" value="ma,fp,cp"/>
+  <Parameter name="allowMandantShare" value="true" />
+  <Parameter name="interfaces" value="DSER,INVEST" />	
+  <Parameter name="secureCookies" value="true" />
+
+  <Parameter name="testServer" value="true" />	
+  <Parameter name="demoDataFolder" value="/home/ifyna-example/server/demo_daten" />
+
+  <Parameter name="public.key" value="/home/ifyna-example/server/keys/public.key"/>
+
+  <Parameter name="licence.file" value="/home/ifyna-example/server/conf/licence.xml"/>  
+  <Parameter name="licence.email" value="support@ifyna.de" />
+	
+  <Parameter name="smtp.host" value="localhost" />
+  <Parameter name="smtp.port" value="25" />
+  <Parameter name="smtp.user" value="" />
+  <Parameter name="smtp.password" value="" />
+  <Parameter name="smtp.from" value="ifyna-example@ifyna.de" />
+
+  <Parameter name="bug.info" value="true" />
+  <Parameter name="bug.email" value="notfication@ifyna.de" />
+
+</Context>

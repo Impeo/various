@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<efp24 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:noNamespaceSchemaLocation="http://www.etvice.com/xsd/efp24.xsd">
+    <header>
+        <creation-time>2015-09-09T16:32:00</creation-time>
+        <senderID>etvice</senderID>
+        <version>2.1.8</version>
+        <confID>MA-FP-CP</confID>
+    </header>
+    <body>
+        <mandant>
+            <kontaktArt>1</kontaktArt>
+            <kundennummer>Single ohne Kind - Normalverdiener</kundennummer>
+            <nachname>Singlich</nachname>
+            <vorname>Sandra</vorname>
+            <geburtsdatum>1966-05-20</geburtsdatum>
+            <strasse>Singergasse 3</strasse>
+            <ort>Hannover</ort>
+            <postleitzahl>33333</postleitzahl>
+            <bundesland>9</bundesland>
+            <anrede>2</anrede>
+            <land>Deutschland</land>
+            <adressen>
+                <erstellt>2015-08-31T08:35:27</erstellt>
+                <externeReferenz>603</externeReferenz>
+                <hauptadresse>true</hauptadresse>
+                <geschaeftlich>false</geschaeftlich>
+                <bundesland>9</bundesland>
+                <ort>Hannover</ort>
+                <postleitzahl>33333</postleitzahl>
+                <strasse>Singergasse 3</strasse>
+                <landISO>DE</landISO>
+                <anschrift>Singergasse 3, DE-33333 Hannover</anschrift>
+            </adressen>
+        </mandant>
+    </body>
+</efp24>
