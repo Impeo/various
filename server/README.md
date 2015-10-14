@@ -63,7 +63,7 @@ svn co https://github.com/Impeo/various/server/trunk server
   ServerName example.ifyna.net
 ``` 
 
-* If you changed the context to another value as _ifyna_ change this in in the vhost config accordingly
+* as user make sure the ajp Port matches the port in _server.xml_ . If you changed the context in _server.xml_ to a value other as _ifyna_ change this here accordingly
 
 ```
   ProxyPass /ifyna ajp://127.0.0.1:8001/ifyna
