@@ -22,7 +22,7 @@ su - ifyna-example
 * as user use subversion to checkout this repo in the home dir
 
 ```
-svn co https://github.com/Impeo/ifyna-server/trunk server 
+svn co https://github.com/Impeo/various/server/trunk server 
 ```
 
 ### server.xml
