@@ -1,3 +1,3 @@
 # various
 
-Diverse scripte, dokumente etc. die unter Versionskontrolle stehen sollen, aber nicht zu einem der Projekte gehören. 
+Diverse scripte, Dokumente etc. die unter Versionskontrolle stehen sollen, aber nicht zu einem der Projekte gehören. 
