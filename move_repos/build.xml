@@ -1,0 +1,11 @@
+<project name="cheops" default="dist" basedir=".">
+
+  <target name="dist" description="build the whole cheops system">
+                <subant target="dist-fast">
+                        <filelist dir="projects/efp24">
+                                <file name="build.xml" />
+                        </filelist>
+                </subant>
+        </target>
+
+</project>
