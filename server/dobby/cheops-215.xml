@@ -1,0 +1,82 @@
+<!-- Standard-Context als Vorlage -->
+<Context
+
+	docBase="../warfiles/cheops-215.war"
+	reloadable="true"
+	debug="5"
+	crossContext="true" 
+	privileged="true"
+    antiResourceLocking="true"
+    antiJARLocking="true">
+
+	<Parameter name="modules" value="ma,fp,cp" override="false"/>
+	<Parameter name="interfaces" value="KAIMAAN,SBL,DSER,NORDSOFT,K_UND_M,GEWA,INNOSYS,CODIE,INVEST,SCOUT,MYPMA" override="false"/>
+	<Parameter name="contextAuth" value="abc" override="false"/>
+	<Parameter name="licence.email" value="support_cheops@impeo.de" override="false"/>
+	<!--
+	<Parameter name="allowMandantShare" value="true" override="false"/>
+	<Parameter name="innosystems" value="true" override="false"/>
+	-->
+	
+	<Parameter name="smtp.host" value="localhost" override="false"/>
+	<Parameter name="smtp.port" value="25" override="false"/>
+	<Parameter name="smtp.user" value="" override="false"/>
+	<Parameter name="smtp.password" value="" override="false"/>
+	<Parameter name="smtp.from" value="dobby_cheops-215@impeo.de" override="false"/>
+	
+	<!-- Single-Sign-On: Anfrage darf maximal 15 Minuten alt sein -->
+	<Parameter name="xmlloginTimeoutInSec" value="900" override="false"/>
+
+	<Parameter name="bug.info" value="true" override="false"/>
+	<Parameter name="bug.email" value="support_cheops@impeo.de" override="false"/>
+	
+	<Parameter name="licence.file" value="/var/tomcat/servers/cheops-215/licence.xml" override="false"/>
+	<Parameter name="public.key" value="/var/tomcat/servers/cheops-215/public.key" override="false"/>
+	<!-- Rechenkern Gervis-Leben Produktivumgebung 
+	<Parameter name="gervis.ws" value="https://62.180.244.185/psprint/PSPrintServlet.servlet" override="false"/>
+    -->
+	<!-- Rechenkern Gervis-Leben Testumgebung/QS-Umgebung  -->
+        <Parameter name="gervis.testumgebung" value="true" override="false"/>
+        <Parameter name="gervis.ws" value="https://qs-easy.hdi-gerling.de/psprint/PSPrintServlet.servlet" override="false"/>
+        <Parameter name="gervis.user" value="hglvportal" override="false"/>
+        <Parameter name="gervis.password" value="integration2007" override="false"/>
+        <Parameter name="gervis.host" value="62.180.244.186" override="false"/>
+        <Parameter name="gervis.domain" value="62.180.244.186" override="false"/>
+
+<!-- 	
+	<Parameter name="requestDelimiterFilter" value="true" override="false"/>
+	<Parameter name="timeFrameInSecByUser" value="60" override="false"/>
+	<Parameter name="maxRequestsByUser" value="1000" override="false"/>
+	<Parameter name="timeFrameInSecByIP" value="60" override="false"/>
+	<Parameter name="maxRequestsByIP" value="1000" override="false"/>
+ -->	
+	<!-- 
+	<Parameter name="debug" value="true" override="false"/>
+	<Parameter name="requestDumperFilter" value="true" override="false"/>
+	 -->
+	<!-- DB Verbindung OHNE Connection Pooling:
+	<Resource name="jdbc/etvice-db" 
+		auth="Container"
+		type="javax.sql.DataSource"
+		username="etvice"
+		password="etvice"
+		driverClassName="org.firebirdsql.jdbc.FBDriver"
+		url="jdbc:firebirdsql:frodo.etvice.intra:efp24"
+		/>
+		-->
+
+	<!-- DB Verbindung MIT Connection Pooling-->
+	<Resource name="jdbc/etvice-db" 
+		auth="Container"
+		factory="org.apache.naming.factory.BeanFactory"
+		type="com.mchange.v2.c3p0.ComboPooledDataSource"
+		minPoolSize="1"
+		maxPoolSize="30"
+		numHelperThreads="3"
+		user="sysdba"
+		password="masterkey"
+		driverClass="org.firebirdsql.jdbc.FBDriver"
+		jdbcUrl="jdbc:firebirdsql:dobby:cheops215"
+		/>
+
+</Context>
